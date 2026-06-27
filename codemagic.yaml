@@ -29,5 +29,5 @@ workflows:
       - name: Export IPA
         script: |
           xcodebuild -exportArchive -archivePath build/QuizTool.xcarchive -exportPath build/ipa -exportOptionsPlist "$HOME/export_options.plist"
-              artifacts:
+    artifacts:
       - build/ipa/*.ipa
