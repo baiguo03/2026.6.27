@@ -3,8 +3,15 @@
 <plist version="1.0">
 <dict>
   <key>method</key>
-  <string>ad-hoc</string>
+  <string>release-testing</string>
   <key>signingStyle</key>
-  <string>automatic</string>
+  <string>manual</string>
+  <key>teamID</key>
+  <string>T9D6U74H9U</string>
+  <key>provisioningProfiles</key>
+  <dict>
+    <key>app.calcite4884.lyra3161</key>
+    <string>d6963832-1597-4156-ba23-e0cc7ee4861e</string>
+  </dict>
 </dict>
 </plist>
