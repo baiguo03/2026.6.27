@@ -28,6 +28,6 @@ workflows:
           xcodebuild -project "$XCODE_PROJECT" -scheme "$XCODE_SCHEME" -configuration Release archive -archivePath build/QuizTool.xcarchive
       - name: Export IPA
         script: |
+          mkdir -p "$HOME/Library/MobileDevice/Provisioning Profiles"
+          cp "$HOME/Library/Developer/Xcode/UserData/Provisioning Profiles/d6963832-1597-4156-ba23-e0cc7ee4861e.mobileprovision" "$HOME/Library/MobileDevice/Provisioning Profiles/d6963832-1597-4156-ba23-e0cc7ee4861e.mobileprovision"
           xcodebuild -exportArchive -archivePath build/QuizTool.xcarchive -exportPath build/ipa -exportOptionsPlist "$HOME/export_options.plist"
-    artifacts:
-      - build/ipa/*.ipa
