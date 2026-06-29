@@ -11,15 +11,19 @@
   <key>CFBundleInfoDictionaryVersion</key>
   <string>6.0</string>
   <key>CFBundleName</key>
-  <string>刷题工具</string>
+  <string>李子</string>
+  <key>CFBundleDisplayName</key>
+  <string>李子</string>
   <key>CFBundlePackageType</key>
   <string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
   <key>CFBundleShortVersionString</key>
-  <string>1.0</string>
+  <string>1.11</string>
   <key>CFBundleVersion</key>
-  <string>1</string>
+  <string>12</string>
   <key>LSRequiresIPhoneOS</key>
   <true/>
+  <key>UIUserInterfaceStyle</key>
+  <string>Light</string>
   <key>UIApplicationSceneManifest</key>
   <dict>
     <key>UIApplicationSupportsMultipleScenes</key>
